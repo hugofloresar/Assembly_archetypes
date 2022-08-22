@@ -2,7 +2,7 @@
 
 __This repository contains__ python and julia files to generate information and figures from the article Assembly archetypes in ecological communities. 
 
-__Posterior information directory__ contains Monte Carlo chains obtained from inferred data and Python scripts to generate marginal distributions plots. 
+__Posterior information directory__ contains Monte Carlo chains obtained from inferred data and Python scripts to generate marginal distributions plots. Also, the internal directory Friedman_data contains abundance observations for Friedman species community. MCMC_Friedman.py run the inference to obtain parameters from GLV's model. 
 
 To run the Monte Carlo, you need to download the t-walk from:
 
