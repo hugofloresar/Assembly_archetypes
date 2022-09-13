@@ -8,6 +8,10 @@ To run the Monte Carlo, you need to download the t-walk from:
 
 <https://www.cimat.mx/~jac/twalk/>
 
+The internal directory Gibson_results contains MCMC results from Gibson data. We have used the google_colab notebooks provided by the authors in 
+
+<https://github.com/gerberlab/MDSINE2_Paper/tree/master/google_colab>
+
 __To write assembly rules__, we choose logic circuits written in the minimal Conjunctive Normal Form. So, given a coexistence hypergraph, we use python library pyeda to compute this form. The library documentation is available in:
 
 <https://pyeda.readthedocs.io/en/latest/> 
