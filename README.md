@@ -12,6 +12,10 @@ The internal directory Gibson_results contains MCMC results from Gibson data. We
 
 <https://github.com/gerberlab/MDSINE2_Paper/tree/master/google_colab>
 
+The internal directory Gibson_plots contains the information to generate Supplementary Figures 9 and 10. Use the script Gibson_plots.py
+
+___________
+
 __To write assembly rules__, we choose logic circuits written in the minimal Conjunctive Normal Form. So, given a coexistence hypergraph, we use python library pyeda to compute this form. The library documentation is available in:
 
 <https://pyeda.readthedocs.io/en/latest/> 
