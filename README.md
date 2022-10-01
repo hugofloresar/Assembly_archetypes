@@ -8,6 +8,8 @@ To run the Monte Carlo, you need to download the t-walk from:
 
 <https://www.cimat.mx/~jac/twalk/>
 
+The internal directory Droso_results contains MCMC results from fitting a GLV model to Drosophila abundance data. Supplementary Figure 8 may be reproduced from Python script Suppl_Fig8.py 
+
 The internal directory Gibson_results contains MCMC results from Gibson data. We have used the google_colab notebooks provided by the authors in 
 
 <https://github.com/gerberlab/MDSINE2_Paper/tree/master/google_colab>
