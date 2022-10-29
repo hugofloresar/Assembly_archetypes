@@ -18,6 +18,10 @@ The internal directory Gibson_plots contains the information to generate Supplem
 
 ___________
 
+__Hypergraphs directory__ contains Julia scripts to generate coexistence hypergraphs from posterior samples.  
+
+___________
+
 __To write assembly rules__, we choose logic circuits written in the minimal Conjunctive Normal Form. So, given a coexistence hypergraph, we use python library pyeda to compute this form. The library documentation is available in:
 
 <https://pyeda.readthedocs.io/en/latest/> 
