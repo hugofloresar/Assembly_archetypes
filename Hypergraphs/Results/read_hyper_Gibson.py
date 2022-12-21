@@ -83,7 +83,7 @@ for i in range(len(TT)-1):
     b =  str(TT[:,Num][i+1])
     a = a+b
 
-with open('Gibson_full/Fc_truth_table_'+pat+'.csv.csv', 'w', newline='') as file:
+with open('Gibson_full/Fc_truth_table_'+pat+'.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     for i in range(len(TT[:,-1][1:])):
         writer.writerow([TT[:,-1][1:][i]])
