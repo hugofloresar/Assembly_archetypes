@@ -7,8 +7,8 @@ import csv
 Num = 16
 x = exprvars('x', Num)
 
-# pat = 'h'
-pat = 'uc'
+pat = 'h'
+# pat = 'uc'
 
 def simplify_princ(Fc):
     tt = len(Fc.xs)
@@ -83,14 +83,17 @@ for i in range(len(TT)-1):
     b =  str(TT[:,Num][i+1])
     a = a+b
 
+with open('Gibson_full/Fc_truth_table_'+pat+'.csv.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for i in range(len(TT[:,-1][1:])):
+        writer.writerow([TT[:,-1][1:][i]])
+
 f = truthtable(x, a)
 
 F = truthtable2expr(f)
 
-
 FF = simplify_princ(F)
 
-# with open('../../data/Gibson/Model/Gibsonuc_simplify.csv', 'w', newline='') as file:
 with open('Gibson_full/Gibson'+str(pat)+'_simplify.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Modelo"])
