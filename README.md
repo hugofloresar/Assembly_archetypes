@@ -22,8 +22,12 @@ __Hypergraphs directory__ contains Julia scripts to generate coexistence hypergr
 
 ___________
 
-__To write assembly rules__, we choose logic circuits written in the minimal Conjunctive Normal Form. So, given a coexistence hypergraph, we use python library pyeda to compute this form. The library documentation is available in:
+__To write assembly rules__, we choose logic circuits written in the minimal Conjunctive Normal Form (CNF). So, given a coexistence hypergraph, we use python library pyeda to compute this form. The library documentation is available in:
 
 <https://pyeda.readthedocs.io/en/latest/> 
 
 version 0.28.0
+
+___________
+
+__Hypergraphs/Results directory__ contains python scripts to generate CNF models to approximate the assembly rule of the species community. The script run_hyper_Gibson.py use the information on __Gibson_full directory__ to generate the models as explained in Section 3.4 in the Supplementary Material. 
