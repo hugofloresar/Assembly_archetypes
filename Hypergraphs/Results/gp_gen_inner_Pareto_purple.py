@@ -71,10 +71,8 @@ Samples_arr = []
 nn = len(compl)
 for i in range(nn):
     expr = eval(model[i])
-    # error = Error_bet(Fc,expr)
     error = Error_bet_Fc(expr)
     Error_arr.append(error)
-    # Samples_arr.append(eval(model[i]))
     Samples_arr.append(expr)
 
 Error_arr = np.array(Error_arr)
@@ -248,6 +246,6 @@ while k > 0:
 
 with open('Tables_'+pat+'/Pareto_Table_purple.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Complejidad", "Error", "Modelo"])
+    writer.writerow(["Complejidad", "Error", "Modelo","Numero_lista"])
     for i in range(len(Err_arr2)):
         writer.writerow([Compl_arr2[i],Err_arr2[i], Model_arr2[i],n_arr2[i]])
