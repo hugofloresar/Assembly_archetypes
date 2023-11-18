@@ -1,5 +1,7 @@
 # Assembly_archetypes
 
+[![DOI](https://zenodo.org/badge/525542402.svg)](https://zenodo.org/doi/10.5281/zenodo.10154699)
+
 __This repository contains__ python and julia files to generate information and figures from the article Assembly archetypes in ecological communities. 
 
 __Posterior information directory__ contains Monte Carlo chains obtained from inferred data and Python scripts to generate marginal distributions plots. Also, the internal directory Friedman_data contains abundance observations for Friedman species community. MCMC_Friedman.py run the inference to obtain parameters from GLV's model. 
